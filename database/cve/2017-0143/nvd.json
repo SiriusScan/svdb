@@ -1,0 +1,222 @@
+/**
+ * Paste one or more documents here
+ */
+{
+  "cvedataformat": "MITRE",
+  "cvedatatype": "CVE",
+  "cvedataversion": "",
+  "cvedatanumberofcves": "",
+  "cvedatatimestamp": "",
+  "cveitems": null,
+  "cvedatameta": {
+    "id": "CVE-2017-0143",
+    "assigner": "secure@microsoft.com",
+    "state": null
+  },
+  "description": {
+    "descriptiondata": [
+      {
+        "lang": "en",
+        "value": "The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka \"Windows SMB Remote Code Execution Vulnerability.\" This vulnerability is different from those described in CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148."
+      }
+    ]
+  },
+  "cpe": {
+    "operator": "AND",
+    "negate": false,
+    "children": [
+      {
+        "operator": "OR",
+        "negate": false,
+        "children": null,
+        "cpematch": [
+          {
+            "vulnerable": true,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:a:microsoft:server_message_block:1.0:*:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          }
+        ]
+      },
+      {
+        "operator": "OR",
+        "negate": false,
+        "children": null,
+        "cpematch": [
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_10:*:*:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_10:1511:*:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_10:1607:*:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_7:-:sp1:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_8.1:*:*:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_rt_8.1:-:*:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_server_2008:-:sp2:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_server_2008:r2:sp1:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_server_2012:-:gold:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_server_2016:-:*:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          },
+          {
+            "vulnerable": false,
+            "cpe22uri": "",
+            "cpe23uri": "cpe:2.3:o:microsoft:windows_vista:-:sp2:*:*:*:*:*:*",
+            "versionstartexcluding": "",
+            "versionstartincluding": "",
+            "versionendexcluding": "",
+            "versionendincluding": "",
+            "cpename": null
+          }
+        ]
+      }
+    ],
+    "cpematch": null
+  },
+  "cvssv3": {
+    "version": "3.0",
+    "vectorstring": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "attackvector": "NETWORK",
+    "attackcomplexity": "HIGH",
+    "privilegesrequired": "NONE",
+    "userinteraction": "NONE",
+    "scope": "UNCHANGED",
+    "confidentialityimpact": "HIGH",
+    "integrityimpact": "HIGH",
+    "availabilityimpact": "HIGH",
+    "basescore": 8.1,
+    "baseseverity": "HIGH",
+    "exploitcodematurity": "",
+    "remediationlevel": "",
+    "reportconfidence": "",
+    "temporalscore": 0,
+    "temporalseverity": "",
+    "confidentialityrequirement": "",
+    "integrityrequirement": "",
+    "availabilityrequirement": "",
+    "modifiedattackvector": "",
+    "modifiedattackcomplexity": "",
+    "modifiedprivilegesrequired": "",
+    "modifieduserinteraction": "",
+    "modifiedscope": "",
+    "modifiedconfidentialityimpact": "",
+    "modifiedintegrityimpact": "",
+    "modifiedavailabilityimpact": "",
+    "environmentalscore": 0,
+    "environmentalseverity": ""
+  },
+  "references": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0143",
+    "http://www.securityfocus.com/bid/96703",
+    "http://www.securitytracker.com/id/1037991",
+    "https://www.exploit-db.com/exploits/41987/",
+    "https://www.exploit-db.com/exploits/41891/",
+    "https://www.exploit-db.com/exploits/43970/",
+    "https://ics-cert.us-cert.gov/advisories/ICSMA-18-058-02",
+    "https://cert-portal.siemens.com/productcert/pdf/ssa-701903.pdf",
+    "https://cert-portal.siemens.com/productcert/pdf/ssa-966341.pdf",
+    "http://packetstormsecurity.com/files/154690/DOUBLEPULSAR-Payload-Execution-Neutralization.html",
+    "http://packetstormsecurity.com/files/156196/SMB-DOUBLEPULSAR-Remote-Code-Execution.html"
+  ],
+  "tags": null,
+  "Tags": null
+}
